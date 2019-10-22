@@ -1,0 +1,40 @@
+nav {
+    width: 50%;
+    position: fixed;
+}
+h1{
+    font-family: fantasy;
+    font-size: 15px;
+    background-color: aquamarine;
+    color: darkred;
+}
+
+h2 {
+    font-family: fantasy;
+    font-size: 15px;
+    background-color: rgb(119, 137, 236);
+}
+
+p {
+    font-family: fantasy;
+    font-size: 25px;
+    background-color: darkcyan;
+    color: darkmagenta;
+}
+.parrafo {
+    font-family: fantasy;
+    font-size: 50pxs;
+    color: darkred;
+}
+footer{
+        background-color:cadetblue;
+        color: chocolate;
+        font-family: fantasy;
+        font-size: 20px;
+        position: absolute;
+        bottom:50%;
+}
+
+.Cabecera{
+    background-attachment: fixed;
+}
