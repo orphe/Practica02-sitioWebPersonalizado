@@ -2,6 +2,17 @@
 .letrasOrigen{
     background-image: url(/imagenes/logo/letras.jpg);
     border: 2px solid rgb(250, 247, 247);
+    position: flex;
+    background-color:transparent !important;
+    background-color: rgb(132, 236, 236);
+    margin: 0;
+    position: centerie;
+
+}
+/*fondo de pantalla para las letras clasicas*/
+#logoRock{
+    background-image: url(/imagenes/logo/logoclas.jpg);
+    border: 2px solid rgb(250, 247, 247);
   
     background-color:transparent !important;
     background-color: rgb(132, 236, 236);
@@ -9,18 +20,26 @@
 }
 /*fondo de pantalla para las letras rock*/
 #logoRock{
-    background-image: url(/imagenes/logo/logoROCK.jpg);
+    background-image: url(/imagenes/logo/logoclas.jpg);
     border: 2px solid rgb(250, 247, 247);
   
     background-color:transparent !important;
     background-color: rgb(132, 236, 236);
     margin: 0;
 }
+/*fondo de pantalla para las letras latinas*/
+#logoLatina{
+    background-image: url(/imagenes/logo/logolatino.jpg);
+    border: 2px solid rgb(250, 247, 247);
+    background-color:transparent !important;
+    background-color: rgb(132, 236, 236);
+    margin: 0; 
+}
 /*Disenio para la imagen de fondo y el menu de navegación*/
 #canciones{
-    margin: 0;
-    margin-top: 52%;
-     padding:2px;
+     margin:  0;
+    position: centerie ;
+    padding:2px;
     display: inline-block;
 	
 	-webkit-border-radius: 100px;
@@ -36,20 +55,14 @@
 	-ms-transition: all .2s ease;
 	-o-transition: all .2s ease;
     transition: all .2s ease;
-    background-color: rgb(243, 240, 240);
-  
-    
+    background-color: rgb(243, 240, 240);  
 }
 #canciones ul li {
     float: left;
     text-align: center;
-	border-right: 1px solid rgb(155, 117, 117);
-	border-left: 1px solid rgb(145, 108, 108);
-    list-style:none;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	
 	-webkit-transition: all .2s ease;
 	-moz-transition: all .2s ease;
 	-ms-transition: all .2s ease;
@@ -67,18 +80,22 @@
 
 #canciones ul li:first-child {
 	border-left: none;
-
 	-webkit-border-radius: 100px 0 0 100px;
     -moz-border-radius: 100px 0 0 100px;
-    
-	border-radius: 100px 0 0 100px;
+    border-radius: 100px 0 0 100px;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 #canciones ul li:last-child {
 	border-right: none;
 	-webkit-border-radius: 0 100px 100px 0;
 	-moz-border-radius: 0 100px 100px 0;
-	border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 #canciones ul li a{
@@ -86,16 +103,22 @@
 	font: 11px/41px Arial, sans-serif;
 	color: rgb(14, 13, 13);
 	text-transform: uppercase;
-	text-shadow: 0px 1px rgba(0,0,0,0.5);
-	padding: 35px;
+	text-shadow: 0px 1px rgba(190, 17, 17, 0.5);
+    padding: 35px;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 
 }
 /*Disenio para el menu de navegación para el inicio*/
 #centrar {
+    position: fixed;
+    top: 2%;
     float: left;
     margin:0;
     padding: 2px;
     font-family: fantasy;
+    
 }
 ul, ol {
 
@@ -140,6 +163,7 @@ ul, ol {
 
 /*disenio del encabezado de la pagina letras*/
 .tituloLetra{
+    position: centerie;
     border: 2px ;
     margin: 0;
     font-family: fantasy;
@@ -152,8 +176,11 @@ ul, ol {
 }
 /*footer*/
 .pieLetra{
+    bottom: 0%;
+    position: fixed;
     padding: 0;
     margin-top:1%;
+    margin-right: 2%;
     text-align: center;    
     font-family: fantasy;
     font-weight: bolder;
@@ -161,6 +188,7 @@ ul, ol {
 }
 /*disenio del cuerpo*/
 .letras{
+    position: centerie;
     margin: 0;
     background: #333;
     text-align: center;
