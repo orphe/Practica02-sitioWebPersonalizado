@@ -1,0 +1,155 @@
+.letrasOrigen{
+    background-image: url(/imagenes/logo/letras.jpg);
+    border: 2px solid rgb(250, 247, 247);
+  
+    background-color:transparent !important;
+    background-color: rgb(132, 236, 236);
+    margin: 0;
+}
+
+#canciones{
+    margin: 0;
+    
+    margin-top: 43%;
+     padding:2px;
+    display: inline-block;
+	
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+
+	-webkit-box-shadow: inset 0px 1px 2px 0px rgba(190, 59, 59, 0.4), 0px 1px 1px 0px rgba(255,255,255,.1);
+	-moz-box-shadow: inset 0px 1px 2px 0px rgba(204, 23, 23, 0.4), 0px 1px 1px 0px rgba(255,255,255,.1);
+	box-shadow: inset 0px 1px 2px 0px rgba(230, 25, 25, 0.4), 0px 1px 1px 0px rgba(255,255,255,.1);
+
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+    transition: all .2s ease;
+    background-color: rgb(243, 240, 240);
+  
+    
+}
+#canciones ul li {
+	float: left;
+	text-align: center;
+	border-right: 1px solid rgb(155, 117, 117);
+	border-left: 1px solid rgb(145, 108, 108);
+    list-style:none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+#canciones ul li:hover {
+	background: rgba(182, 34, 34, 0.08);
+}
+
+#canciones ul li:active {
+	background: rgba(161, 37, 37, 0.08);
+}
+
+#canciones ul li:first-child {
+	border-left: none;
+
+	-webkit-border-radius: 100px 0 0 100px;
+    -moz-border-radius: 100px 0 0 100px;
+    
+	border-radius: 100px 0 0 100px;
+}
+
+#canciones ul li:last-child {
+	border-right: none;
+	-webkit-border-radius: 0 100px 100px 0;
+	-moz-border-radius: 0 100px 100px 0;
+	border-radius: 0 100px 100px 0;
+}
+
+#canciones ul li a{
+	text-decoration: none;
+	font: 11px/41px Arial, sans-serif;
+	color: rgb(14, 13, 13);
+	text-transform: uppercase;
+	text-shadow: 0px 1px rgba(0,0,0,0.5);
+	padding: 35px;
+
+}
+#centrar {
+    float: left;
+    margin:0;
+    padding: 2px;
+    font-family: fantasy;
+}
+ul, ol {
+
+   font-size: larger;
+    list-style:none;
+    border-radius: 100px;
+}
+.nav li a {
+    color:rgb(211, 22, 22);
+    text-shadow: 0px 1px rgba(0,0,0,0.5);
+    font-size: 35px;
+    padding:2px;
+    text-decoration:none;
+    display:block;
+    border-radius: 100px;
+
+}
+.nav li a:hover {
+    
+    background-color:#e9caca;  
+}
+
+.nav li ul {
+   
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+
+    display:block;
+}
+
+.nav li ul li {
+    
+    position:relative;
+}
+.nav > li {
+    float: right;;
+}
+
+
+.tituloLetra{
+    border: 2px ;
+    margin: 0;
+    font-family: fantasy;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 0 20px 20px 20px;
+    color: rgb(197, 66, 66);
+    text-shadow: 3px 3px 3px rgb(228, 245, 79);
+    
+}
+.pieLetra{
+    padding: 0;
+    margin-top:450 px;
+    text-align: center;    
+    font-family: fantasy;
+    font-weight: bolder;
+    
+}
+.letras{
+    background: #333;
+    text-align: center;
+    background-color:transparent;
+}
